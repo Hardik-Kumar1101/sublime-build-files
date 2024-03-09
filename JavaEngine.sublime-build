@@ -1,0 +1,18 @@
+// this build file for windows user only 
+// save this in path: C:\Users\YourNameHere\AppData\Roaming\Sublime Text 3\Packages\YOUR_BUILD_FILE_NAME
+{
+	"windows": {
+		"shell": true,
+		"cmd": [
+			"javac", "$file", "&;",
+			"java", "$file_base_name", "<", "input.txt", ">", "output.txt"
+		]
+	},
+
+	"osx": {
+		"shell": false,
+		"cmd": [
+			"sh", "-c", "javac $file && java $file_base_name < input.txt > output.txt"
+		]
+	}
+}
