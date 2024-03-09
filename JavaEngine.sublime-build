@@ -1,5 +1,5 @@
 // this build file for windows user only 
-// save this in path: C:\Users\YourNameHere\AppData\Roaming\Sublime Text 3\Packages\YOUR_BUILD_FILE_NAME
+// save this in path: C:\Users\YourNameHere\AppData\Roaming\Sublime Text 3\Packages\YOUR_BUILD_FILE_NAME.sublime-build
 {
 	"windows": {
 		"shell": true,
